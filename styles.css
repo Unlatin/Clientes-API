@@ -295,7 +295,7 @@ body .cybr-btn + .cybr-btn {
 .main-card {
   width: 12.5rem;
   height: 17rem;
-  background-color: #212121;
+  background-color: #6f0afc;
   border-radius: 1rem;
   border: #212121 0.2rem solid;
   transition: all 0.4s ease-in;
@@ -303,8 +303,12 @@ body .cybr-btn + .cybr-btn {
 }
 .main-card:hover {
   transform: rotate(90deg);
-  border: #f2295bf0 0.2em solid;
+  border: #2fda04 0.2em solid;
   border-radius: 1rem;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
 }
 
 h1 {
